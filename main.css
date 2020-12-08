@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+button {
+    width: 50px;
+    border: 1px solid green;
+    background: greenyellow;
+}
+.turnOff {
+    position: absolute;
+    display: block;
+    background-image: url("./Basic/images/lampOn.jpg");
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 100vh; /* full image */
+}
+.turnOn {
+    display: none;
+    background-image: url("./Basic/images/lampOff.jpg");
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 100vh;
+}
